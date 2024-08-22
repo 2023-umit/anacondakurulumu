@@ -1,0 +1,2 @@
+# anacondakurulumu
+ubuntu anaconda kurulumu 
