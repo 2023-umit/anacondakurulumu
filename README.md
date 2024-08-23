@@ -1,5 +1,4 @@
-# ubuntu-tutorials
-Creating a virtual environment using Anaconda on Ubuntu 24.04 operating system
+
 # Ubuntu-tutorials
 Creating a virtual environment using Anaconda on Ubuntu 24.04 operating system
 # A  Step to Step Guide to Install Anaconda in Ubuntu
