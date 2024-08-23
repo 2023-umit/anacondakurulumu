@@ -1,12 +1,14 @@
-# anacondakurulumu
-ubuntu anaconda kurulumu 
+# ubuntu-tutorials
+Creating a virtual environment using Anaconda on Ubuntu 24.04 operating system
+# Ubuntu-tutorials
+Creating a virtual environment using Anaconda on Ubuntu 24.04 operating system
 # A  Step to Step Guide to Install Anaconda in Ubuntu
 
 In this repository, I am going to guide the following things 
 * [How to download and install Anaconda](#how-to-download-and-install-anaconda)
   * [Downlod Anaconda Installer](#downlod-Anaconda-Installer)
   * [Installlation](#installation)
-* [How to create conda environment and run your code](#how-to-create-conda-environment-and-run-your-code)
+  * [How to create conda environment and run your code](#how-to-create-conda-environment-and-run-your-code)
   * [Create conda environment](#create-conda-environment )
   * [Activating `conda` environment and run your code](#activating-conda-environment-and-run-your-code)
 
@@ -18,39 +20,39 @@ In this repository, I am going to guide the following things
 You can download the Anaconda installer either using `Terminal` or `manually from the website`. Follow the steps to download it from [Anaconda Distribution Page](https://www.anaconda.com/products/individual). 
 
 
-1. Go to the [Anaconda Distribution Page](https://www.anaconda.com/products/individual#linux) and click `Download`.
+1. [Anaconda Distribution Page](https://www.anaconda.com/products/individual#linux) by entering your email account or Go to the download page by clicking 'skip registration'
 
-   ![2020-09-17](https://user-images.githubusercontent.com/29531232/93409785-43e3e800-f8b5-11ea-83fb-aac7769c7d5b.png)
+   ![2024-08-22](![Ekran görüntüsü 2024-08-22 115204](https://github.com/user-attachments/assets/e0c853e2-a0f8-4485-a0a3-a04594b07645))
 
 
 2. After clicking you will redirect to the page section where you can find various `Anaconda Installer`. Now you can download the `Anaconda Installer` using two approaches. 
    * **Mannual download:** 
      Download specific installer by clicking the appropiate version based on your OS. 
-         ![2020-09-17 (1)](https://user-images.githubusercontent.com/29531232/93409870-7db4ee80-f8b5-11ea-860e-c1115ac337a1.png)
+        ![Ekran görüntüsü 2024-08-22 115114](https://github.com/user-attachments/assets/8388b506-a575-4651-a5f9-bb69c0f744b2)
    * **Using Terminal:** 
      Right click on the link of your specific version of the installer and copy the link. Then use terminal to download the installer
-         ![2021-11-04 (2)](https://user-images.githubusercontent.com/29531232/140423840-92ceaf9d-4c8b-4d2d-8f52-c67490176933.jpg)
+         ![Ekran görüntüsü 2024-08-22 115114](https://github.com/user-attachments/assets/8388b506-a575-4651-a5f9-bb69c0f744b2)
       ```
       $ wget <link copied>
       ```  
 
 
-3. `Anaconda3-2020.07-Linux-x86_64` will download.
+3. `Anaconda3-2024.07-Linux-x86_64` will download.
 
 ### Installation
 
-After downloading the installer(`Anaconda3-2020.07-Linux-x86_64`), please make sure where it is located. I put the installer in `Downloads` folder. To install, do following steps
+After downloading the installer(`Anaconda3-2024.07-Linux-x86_64`), please make sure where it is located. I put the installer in `Downloads` folder. To install, do following steps
 
 1. Open your `Terminal` and go to the specific folder(in my case, the folder `Downloads`). Then use the following command
 
    ```sh
    pratik@PRATIK-YOGA:~$ cd Downloads/    
-   pratik@PRATIK-YOGA:~/Downloads$ bash Anaconda3-2020.07-Linux-x86_64
+   pratik@PRATIK-YOGA:~/Downloads$ bash Anaconda3-2024.07-Linux-x86_64
    ```
  
 2. You will see the following output
  
-    ![2020-09-17 (3)](https://user-images.githubusercontent.com/29531232/93409949-a806ac00-f8b5-11ea-9276-dd8e5333580d.png)
+    ![93409949-a806ac00-f8b5-11ea-9276-dd8e5333580d](https://github.com/user-attachments/assets/28f22157-ff39-4304-966f-f133aefd72d3)a
 
 3. Click `ENTER` and finally it prompts `yes or no`. Enter `yes`. It will take a few minutes to install the anaconda in your system.
  
@@ -113,7 +115,3 @@ Conda environment nothing but a virtual environment. You can customize the envir
   * __Install specific package with specific version:__ Suppose you need to install `tensorflow 1.14` version package in your `conda` environment 
   ```sh 
     (second_env)pratik@PRATIK-YOGA:~$ conda install -c conda-forge tensorflow=1.14
-  ```
-
-
-
